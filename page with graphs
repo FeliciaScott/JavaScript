@@ -1,0 +1,25 @@
+const yearlyCurriculum = {
+  skill: "UX Content Strategy & Brand Systems",
+  targetHoursPerWeek: 10,
+  quarters: [
+    {
+      quarter: 1,
+      theme: "Foundations & Deconstruction",
+      months: ["January", "February", "March"],
+      milestones: [
+        { week: 2, topic: "Terminology & Principles", status: "completed" },
+        { week: 6, topic: "Tooling Workflows (Figma / Style Guides)", status: "in-progress" },
+        { week: 12, topic: "Q1 Teardown Project", status: "pending" }
+      ]
+    },
+    {
+      quarter: 2,
+      theme: "Execution & Real-World Projects",
+      months: ["April", "May", "June"],
+      milestones: [
+        { week: 16, topic: "Drafting Component Libraries", status: "pending" },
+        { week: 24, topic: "Q2 End-to-End Client Simulation", status: "pending" }
+      ]
+    }
+  ]
+};
